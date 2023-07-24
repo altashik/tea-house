@@ -45,7 +45,7 @@
     <!-- Header starts here -->
     <header class="container mx-auto">
       <div class="hero">
-        <div class="hero-content flex-col lg:flex-row">
+        <div class="hero-content flex-col lg:flex-row lg:text-left">
           <div>
             <h1 class="text-7xl font-extrabold">
               It's good <br />
@@ -73,7 +73,7 @@
       </div>
     </header>
     <!-- Main content starts here -->
-    <main class="container mx-auto">
+    <main class="container mx-auto px-20">
       <!-- Featured section -->
       <section class="text-center my-24">
         <h2 class="text-5xl font-extrabold mb-5">Our Featured Products</h2>
@@ -84,29 +84,34 @@
         </p>
 
         <!-- Card container -->
-        <div class="grid gap-6 mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-          <div class="card  p-8 shadow-xl">
+        <div
+          class="grid gap-6 mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-14">
+          <div
+            class="card p-8 shadow-xl bg-gradient-to-l from-slate-50 to-slate-100">
             <figure><img src="./images/tea-1.png" alt="tea" /></figure>
             <div class="card-body text-center">
               <h2 class="text-2xl font-extrabold">Milk Tea</h2>
               <p class="text-xs">Creamer could be replaced by fresh milk</p>
             </div>
           </div>
-          <div class="card  p-8 shadow-xl">
+          <div
+            class="card p-8 shadow-xl bg-gradient-to-l from-slate-50 to-slate-100">
             <figure><img src="./images/tea-2.png" alt="tea" /></figure>
             <div class="card-body text-center">
               <h2 class="text-2xl font-extrabold">Black Tea</h2>
               <p class="text-xs">Creamer could be replaced by fresh milk</p>
             </div>
           </div>
-          <div class="card  p-8 shadow-xl">
+          <div
+            class="card p-8 shadow-xl bg-gradient-to-l from-slate-50 to-slate-100">
             <figure><img src="./images/tea-3.png" alt="tea" /></figure>
             <div class="card-body text-center">
               <h2 class="text-2xl font-extrabold">Lemon Tea</h2>
               <p class="text-xs">Creamer could be replaced by fresh milk</p>
             </div>
           </div>
-          <div class="card  p-8 shadow-xl">
+          <div
+            class="card p-8 shadow-xl bg-gradient-to-l from-slate-50 to-slate-100">
             <figure><img src="./images/tea-4.png" alt="tea" /></figure>
             <div class="card-body text-center">
               <h2 class="text-2xl font-extrabold">Green Tea</h2>
@@ -115,8 +120,51 @@
           </div>
         </div>
       </section>
-    </main>
+      <!-- Great Tea section -->
+      <section class="my-24 flex gap-12 flex-col lg:flex-row mt-40">
+        <div class="flex-1 grid gap-8 grid-cols-1 lg:grid-cols-2">
+          <div
+            class="h-32 rounded-lg bg-gradient-to-r from-rose-100 to-rose-200"></div>
+          <div
+            class="row-span-2 rounded-lg p-4 bg-gradient-to-l from-rose-100 to-rose-200 flex justify-center align-middle">
+            <img class="" src="./images/fresh-1.png" alt="" />
+          </div>
+          <div
+            class="row-span-2 rounded-lg p-4 bg-gradient-to-l from-slate-200 to-slate-300 flex justify-center align-middle">
+            <img src="./images/fresh-2.png" alt="" />
+          </div>
+          <div
+            class="h-32 rounded-lg bg-gradient-to-r from-slate-200 to-slate-300"></div>
+        </div>
 
+        <div class="flex-1 text-left space-y-5">
+          <h3 class="text-5xl font-extrabold">Great Tea, Freshly Presented</h3>
+          <p class="text-base font-medium">
+            The meaning of gong cha is chanese is to provide the best tea to
+            emperor from all possessions . It represents the highest quality and
+            self expectation. Establishing in 2006, Gong cha had been deeply
+            appreciated by its custoers because of good words of mouth and
+            unique customized service orginated from Taiwan.
+          </p>
+          <h6 class="text-xl font-extrabold">Unique Taste</h6>
+          <p class="text-base font-medium">
+            A Unique and different style from other teapots gives a luxurious
+            and minimalist impression
+          </p>
+          <h6 class="text-xl font-extrabold">Premium Quality</h6>
+          <p class="text-base font-medium">
+            Premium Quality that makes tea more elegant and more durable when
+            you use it.
+          </p>
+        </div>
+      </section>
+        <!-- Super Client section -->
+      <section>
+        <div >
+          <h2 class="text5xl font-extrabold"></h2>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
